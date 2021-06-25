@@ -5,10 +5,11 @@ import (
 	"net/http"
 	"os"
 
+	"github/roygbip/hackernews/graph"
+	"github/roygbip/hackernews/graph/generated"
+
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/roygbip/hackernews/github/roygbip/hackernews/graph"
-	"github.com/roygbip/hackernews/github/roygbip/hackernews/graph/generated"
 )
 
 const defaultPort = "8080"
