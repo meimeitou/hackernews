@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yinqiwei/hackernews/github/yinqiwei/hackernews/graph/generated"
-	"github.com/yinqiwei/hackernews/github/yinqiwei/hackernews/graph/model"
+	"github.com/roygbip/hackernews/github/roygbip/hackernews/graph/generated"
+	"github.com/roygbip/hackernews/github/roygbip/hackernews/graph/model"
 )
 
 func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) (*model.Todo, error) {

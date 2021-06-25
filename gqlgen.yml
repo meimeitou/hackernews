@@ -35,7 +35,7 @@ resolver:
 # gqlgen will search for any type names in the schema in these go packages
 # if they match it will use them, otherwise it will generate them.
 autobind:
-  - "github.com/yinqiwei/hackernews/github/yinqiwei/hackernews/graph/model"
+  - "github.com/roygbip/hackernews/github/roygbip/hackernews/graph/model"
 
 # This section declares type mapping between the GraphQL and go type systems
 #
@@ -44,7 +44,7 @@ autobind:
 # your liking
 models:
   User:
-    model: github.com/yinqiwei/hackernews/models.User
+    model: github.com/roygbip/hackernews/models.User
     fields:
       name:
         resolver: true
